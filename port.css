@@ -1,0 +1,43 @@
+.navbar {
+  background-color: #2F4F4F; /* same as your theme */
+}
+
+
+.logo{
+  font-weight: 800;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.body-color{
+  background-color:#2f4f4f ;
+}
+
+body::before{
+display: block;
+content: '';
+height:60px;
+
+}
+
+.but{
+  background-color: #2F4F4F;
+  color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+.img-tops {
+  width: 100%;          /* fills the column width */
+  height: auto;         /* keeps natural aspect ratio */
+  aspect-ratio: 5671 / 3781; /* enforce landscape ratio */
+  object-fit: cover;    /* crops excess while filling */
+}
+.card-title{
+  font-weight:bold;
+}
+
+.FT{
+  font-weight: bold;
+}
